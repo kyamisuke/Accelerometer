@@ -15,6 +15,10 @@
 		8F8DC6C6233856BE00110605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8DC6C4233856BE00110605 /* LaunchScreen.storyboard */; };
 		8F8DC6D1233856BF00110605 /* AccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DC6D0233856BF00110605 /* AccelerometerTests.swift */; };
 		8F8DC6DC233856BF00110605 /* AccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DC6DB233856BF00110605 /* AccelerometerUITests.swift */; };
+		8F8DC6EC2338577C00110605 /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8DC6EA2338577C00110605 /* awa.png */; };
+		8F8DC6ED2338577C00110605 /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8DC6EB2338577C00110605 /* suiheiki.png */; };
+		8F8DC6EF2338586C00110605 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DC6EE2338586C00110605 /* GameViewController.swift */; };
+		8F8DC6F12338587700110605 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DC6F02338587700110605 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		8F8DC6D7233856BF00110605 /* AccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8DC6DB233856BF00110605 /* AccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerUITests.swift; sourceTree = "<group>"; };
 		8F8DC6DD233856BF00110605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8DC6EA2338577C00110605 /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		8F8DC6EB2338577C00110605 /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		8F8DC6EE2338586C00110605 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8F8DC6F02338587700110605 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		8F8DC6B8233856BE00110605 /* Accelerometer */ = {
 			isa = PBXGroup;
 			children = (
+				8F8DC6E92338577C00110605 /* 13_Resource */,
 				8F8DC6B9233856BE00110605 /* AppDelegate.swift */,
 				8F8DC6BB233856BE00110605 /* SceneDelegate.swift */,
 				8F8DC6BD233856BE00110605 /* ViewController.swift */,
@@ -106,6 +115,8 @@
 				8F8DC6C2233856BE00110605 /* Assets.xcassets */,
 				8F8DC6C4233856BE00110605 /* LaunchScreen.storyboard */,
 				8F8DC6C7233856BE00110605 /* Info.plist */,
+				8F8DC6EE2338586C00110605 /* GameViewController.swift */,
+				8F8DC6F02338587700110605 /* ResultViewController.swift */,
 			);
 			path = Accelerometer;
 			sourceTree = "<group>";
@@ -126,6 +137,15 @@
 				8F8DC6DD233856BF00110605 /* Info.plist */,
 			);
 			path = AccelerometerUITests;
+			sourceTree = "<group>";
+		};
+		8F8DC6E92338577C00110605 /* 13_Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8F8DC6EA2338577C00110605 /* awa.png */,
+				8F8DC6EB2338577C00110605 /* suiheiki.png */,
+			);
+			path = 13_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +254,9 @@
 			files = (
 				8F8DC6C6233856BE00110605 /* LaunchScreen.storyboard in Resources */,
 				8F8DC6C3233856BE00110605 /* Assets.xcassets in Resources */,
+				8F8DC6ED2338577C00110605 /* suiheiki.png in Resources */,
 				8F8DC6C1233856BE00110605 /* Main.storyboard in Resources */,
+				8F8DC6EC2338577C00110605 /* awa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8DC6F12338587700110605 /* ResultViewController.swift in Sources */,
+				8F8DC6EF2338586C00110605 /* GameViewController.swift in Sources */,
 				8F8DC6BE233856BE00110605 /* ViewController.swift in Sources */,
 				8F8DC6BA233856BE00110605 /* AppDelegate.swift in Sources */,
 				8F8DC6BC233856BE00110605 /* SceneDelegate.swift in Sources */,
